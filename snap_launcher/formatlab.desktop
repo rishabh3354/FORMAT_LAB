@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+GenericName=formatlab
+Name=FORMAT LAB
+Type=Application
+Icon=formatlab.png
+Keywords=video converter;audio converter; mp4 converter;mp3 converter;videotomp3 converter;
+Exec=formatlab %F
+Categories=Utility;Qt;
+Terminal=false
+Name[en_US]=FORMAT LAB
