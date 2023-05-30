@@ -15,7 +15,7 @@ environment:
   SNAP_DESKTOP_RUNTIME: $SNAP/pyqt5-runtime-core20
 
 apps:
-  panda-video-converter:
+  formatlab:
     command: bin/desktop-launch formatlab
     desktop: formatlab.desktop
 
