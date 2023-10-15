@@ -18,7 +18,8 @@ apps:
   formatlab:
     command: bin/desktop-launch formatlab
     desktop: formatlab.desktop
-
+    environment:
+      DISABLE_WAYLAND: 1
     plugs:
        - home
        - gsettings
