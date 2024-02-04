@@ -1,10 +1,3 @@
-**APP NOTE :#**
-
-IF APP IS NOT LAUNCHING AFTER INSTALL, THEN RUN CMD BELOW IN YOUR SHELL
-
-    sudo snap remove formatlab --purge;sudo snap remove pyqt5-runtime-core20 --purge;sudo snap install pyqt5-runtime-core20;sudo snap install formatlab;formatlab
-
-
 **ABOUT APPLICATION :**
 
 **FormatLab** is a Powerful Tool for Converting **Video and Audio** files and supports almost **All Formats** with modern and widely supported codecs.
@@ -41,32 +34,32 @@ IF APP IS NOT LAUNCHING AFTER INSTALL, THEN RUN CMD BELOW IN YOUR SHELL
 **Support Valid input audio formats**  
   
 'mp3', 'm4a', 'wav', 'wma', 'aac', 'ogg', 'pcm', 'aiff', 'flac' ..etc  
-  
-**NOTE #1**  
-  
-**Give Permission to Removable-Media Interface and Optical-Drive Interface**  
-  
-**Run below command in your Terminal/Shell.**  
 
-    sudo snap connect formatlab:removable-media  
-    sudo snap connect formatlab:optical-drive  
+## Install FormatLab on Linux Desktop:
 
-  
-If CPU Temp is not Comming/not accurate in the System Monitor, then run below command in your Terminal/Shell.  
-  
+**Snap**
 
-    sudo snap connect formatlab:hardware-observe  
-  
-**NOTE #2**  
-  
-ubuntu-restricted-extras package allows users to install ability to play popular non-free media formats, including DVD, MP3, Quicktime, and Windows Media formats. without this you would not be able to play videos inside the app.  
+[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/formatlab)
 
-    sudo apt-get install ubuntu-restricted-extras
+Install with command-line
 
+`snap install formatlab`
 
+and run
 
+`formatlab`
 
-Info: Some features might be paid in the app. App includes Inapp purchase.
+**Flatpak**
+
+<a href="https://flathub.org/apps/details/com.warlordsoftwares.formatlab"><img src="https://flathub.org/assets/badges/flathub-badge-en.png"  height="56" width="186" alt="Get it from the Flathub Store" ></a>
+
+Install with command-line
+
+`flatpak install flathub com.warlordsoftwares.formatlab`
+
+and run
+
+`flatpak run com.warlordsoftwares.formatlab`
 
 **KEYWORDS:** 
 
