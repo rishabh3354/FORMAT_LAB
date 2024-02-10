@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=FORMAT LAB
+StartupWMClass=FORMAT LAB
+Comment=FormatLab for Desktop
+GenericName=FormatLab for Linux
+Exec=formatlab.sh %u
+Icon=com.warlordsoftwares.formatlab
+Terminal=false
+Type=Application
+StartupNotify=true
+Keywords=video converter;audio converter; mp4 converter;mp3 converter;videotomp3 converter;
+Categories=Utility;

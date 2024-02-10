@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+  <id>com.warlordsoftwares.formatlab</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>LicenseRef-proprietary=https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/license/LICENSE</project_license>
+  <developer_name>Warlord Softwares</developer_name>
+  <name>FormatLab</name>
+  <summary>Convert Video &amp; Audio File Formats In One Click</summary>
+  <description>
+    <p>ABOUT APPLICATION :</p>
+    <p>FormatLab is a powerful tool for converting video and audio files and supports almost all formats with modern and widely supported codecs.</p>
+    <p>FEATURES :</p>
+    <ul>
+      <li>Supports All Popular Video Formats with Modern Lossless Compression Technique.</li>
+      <li>Supports All Popular Audio Formats in High quality Output with One Click.</li>
+      <li>Supports Video to HD Audio File Conversion.</li>
+      <li>Supports Batch Conversions for video and audio files.</li>
+      <li>Supports Video Quality Tweak to change Lossless Quality for a video.</li>
+      <li>Supports FPS Tweak to increase/decrease frame per second of a video.</li>
+      <li>Supports Drag and Drop files Feature for easy Usability.</li>
+      <li>System Monitor App inside to see your CPU usage while conversion.</li>
+    </ul>
+    <p>Supported Video Formats:</p>
+    <p>'mp4', 'mov', 'wmv', 'avi', 'flv', 'f4v', 'mkv', 'webm', 'mpeg', 'm2ts', 'mpg', 'asf', 'swf', etc</p>
+    <p>Supported Audio Formats:</p>
+    <p>'mp3', 'm4a', 'wav', 'wma', 'aac', 'ogg', 'pcm', 'aiff', 'flac', etc</p>
+  </description>
+    <keywords>
+        <keyword translate="no">FormatLab</keyword>
+        <keyword>FFMpeg</keyword>
+        <keyword>HandBrake</keyword>
+        <keyword>video converter</keyword>
+        <keyword>audio converter</keyword>
+        <keyword>mp4 converter</keyword>
+        <keyword>mp3 converter</keyword>
+        <keyword>video to mp3 converter</keyword>
+        <keyword>Uniconverter</keyword>
+        <keyword>VideoProc</keyword>
+        <keyword>Leawo Video Converter</keyword>
+        <keyword>WinX Video Converter</keyword>
+        <keyword>iDealshare</keyword>
+        <keyword>FonePaw</keyword>
+        <keyword>HitPaw</keyword>
+        <keyword>Movavi</keyword>
+        <keyword>Freemake</keyword>
+        <keyword>Prism</keyword>
+        <keyword>Wonderfox</keyword>
+        <keyword>AnyMP4</keyword>
+        <keyword>Video Converter Ultimate</keyword>
+        <keyword>Aiseesoft Video Converter Ultimate</keyword>
+        <keyword>Acethinker</keyword>
+        <keyword>Stellar</keyword>
+        <keyword>Gilisoft</keyword>
+        <keyword>Cisdem</keyword>
+        <keyword>Tipard</keyword>
+        <keyword>Any Video Converter</keyword>
+        <keyword>Zamzar</keyword>
+        <keyword>Hamster</keyword>
+        <keyword>MediaCoder</keyword>
+        <keyword>Gihosoft</keyword>
+        <keyword>Clone2Go</keyword>
+        <keyword>iTube Studio</keyword>
+        <keyword>Cloud Convert</keyword>
+	</keywords>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/formatlab-warlordsoftwares_1.jpg</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/formatlab-warlordsoftwares_2.jpg</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/formatlab-warlordsoftwares_3.jpg</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/formatlab-warlordsoftwares_4.jpg</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/formatlab-warlordsoftwares_5.jpg</image>
+    </screenshot>
+  </screenshots>
+  <url type="homepage">https://github.com/rishabh3354/FORMAT_LAB</url>
+  <url type="bugtracker">https://github.com/rishabh3354/FORMAT_LAB/issues</url>
+  <url type="contact">https://warlordsoftwares.com/contact-us/</url>
+  <url type="donation">https://www.paypal.me/rishabh3354/10</url>
+  <update_contact>contact@warlordsoftwares.com</update_contact>
+  <launchable type="desktop-id">com.warlordsoftwares.formatlab.desktop</launchable>
+   <content_rating type="oars-1.1" />
+  <releases>
+  <release version="2024.1.10" date="2024-01-20" type="stable" urgency="high">
+    <description>
+      <p>Stable release 2024.1.10 revision 11</p>
+    </description>
+  </release>
+  </releases>
+</component>
