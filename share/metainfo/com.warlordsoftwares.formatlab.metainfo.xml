@@ -86,6 +86,7 @@
   <launchable type="desktop-id">com.warlordsoftwares.formatlab.desktop</launchable>
    <content_rating type="oars-1.1" />
   <releases>
+    <release version="2024.5.3" date="2024-04-26" />
     <release version="2024.3.12" date="2024-03-12" />
     <release version="2024.1.10" date="2024-01-10" />
   </releases>
