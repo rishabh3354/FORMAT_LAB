@@ -5,10 +5,10 @@
   <project_license>LicenseRef-proprietary=https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/license/LICENSE</project_license>
   <developer_name>Warlord Softwares</developer_name>
   <name>FormatLab</name>
-  <summary>Convert Video &amp; Audio File Formats In One Click</summary>
+  <summary>Video Converter With Friendly UI</summary>
   <description>
     <p>ABOUT APPLICATION :</p>
-    <p>FormatLab is a powerful tool for converting video and audio files and supports almost all formats with modern and widely supported codecs.</p>
+    <p>FormatLab is a Powerful Audio Video Converter for converting media files in 4k resolution with widely supported codecs.</p>
     <p>FEATURES :</p>
     <ul>
       <li>Supports All Popular Video Formats with Modern Lossless Compression Technique.</li>
@@ -20,10 +20,10 @@
       <li>Supports Drag and Drop files Feature for easy Usability.</li>
       <li>System Monitor App inside to see your CPU usage while conversion.</li>
     </ul>
-    <p>Supported Video Formats:</p>
-    <p>'mp4', 'mov', 'wmv', 'avi', 'flv', 'f4v', 'mkv', 'webm', 'mpeg', 'm2ts', 'mpg', 'asf', 'swf', etc</p>
-    <p>Supported Audio Formats:</p>
-    <p>'mp3', 'm4a', 'wav', 'wma', 'aac', 'ogg', 'pcm', 'aiff', 'flac', etc</p>
+    <p>SUPPORTED VIDEO FORMATS:</p>
+    <p>mp4, mov, wmv, avi, flv, f4v, mkv, webm, mpeg, m2ts, mpg, asf, swf, etc</p>
+    <p>SUPPORTED AUDIO FORMATS:</p>
+    <p>mp3, m4a, wav, wma, aac, ogg, pcm, aiff, flac, etc</p>
   </description>
     <keywords>
         <keyword translate="no">FormatLab</keyword>
@@ -86,9 +86,9 @@
   <launchable type="desktop-id">com.warlordsoftwares.formatlab.desktop</launchable>
    <content_rating type="oars-1.1" />
   <releases>
-    <release version="2024.6.7" date="2024-06-07" />
-    <release version="2024.5.3" date="2024-04-26" />
-    <release version="2024.3.12" date="2024-03-12" />
-    <release version="2024.1.10" date="2024-01-10" />
+     <release version="2024.6.7" date="2024-6-7" />
+     <release version="2024.5.3" date="2024-04-26" />
+     <release version="2024.3.12" date="2024-03-12" />
+     <release version="2024.1.10" date="2024-01-10" />
   </releases>
 </component>
