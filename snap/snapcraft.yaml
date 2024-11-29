@@ -1,6 +1,6 @@
 name: formatlab
 base: core20
-version: '2024.7.5'
+version: '2024.12.1'
 summary: FormatLab Video/Audio Lossless Converter
 description: FormatLab is a powerful Video/Audio Converter and Compressor for Linux OS which supports MP3, MP4, AVI, WMV, MKV or other file formats with Lossless Quality conversion.
 grade: stable
