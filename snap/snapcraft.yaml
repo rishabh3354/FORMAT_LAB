@@ -1,8 +1,8 @@
 name: formatlab
-base: core20
-version: '2024.12.1'
-summary: FormatLab Video/Audio Lossless Converter
-description: FormatLab is a powerful Video/Audio Converter and Compressor for Linux OS which supports MP3, MP4, AVI, WMV, MKV or other file formats with Lossless Quality conversion.
+base: core22
+version: '2025.9.16'
+summary: Convert Videos and Audio Files
+description:  FormatLab is a powerful audio and video converter that supports 4K resolution and a wide range of codecs.
 grade: stable
 confinement: strict
 
@@ -12,7 +12,7 @@ architectures:
   - build-on: [amd64]
 
 environment:
-  SNAP_DESKTOP_RUNTIME: $SNAP/pyqt5-runtime-core20
+  SNAP_DESKTOP_RUNTIME: $SNAP/content-snap-core22
 
 apps:
   formatlab:
@@ -51,10 +51,10 @@ plugs:
     interface: content
     target: $SNAP/data-dir/sounds
     default-provider: gtk-common-themes
-  pyqt5-runtime-core20:
+  content-snap-core22:
     interface: content
-    target: $SNAP/pyqt5-runtime-core20
-    default-provider: pyqt5-runtime-core20
+    target: $SNAP/content-snap-core22
+    default-provider: content-snap-core22
 
 parts:
   snap-launcher:
@@ -65,3 +65,12 @@ parts:
       sed -i 's|Icon=.*|Icon=${SNAP}/meta/gui/icon.png|g' ${SNAPCRAFT_PART_SRC}/formatlab.desktop
       mkdir -p ${SNAPCRAFT_PART_INSTALL}/usr/share/applications/
       cp -rf ${SNAPCRAFT_PART_SRC}/formatlab.desktop ${SNAPCRAFT_PART_INSTALL}/usr/share/applications/formatlab.desktop
+
+  formatlab-binary:
+    plugin: dump
+    source: https://warlordsoftwares.com/static/app_builds/snap/FORMAT_LAB.tar.gz
+    source-type: tar
+    override-build: |
+      mkdir -p ${SNAPCRAFT_PART_INSTALL}/bin
+      cp FORMAT_LAB ${SNAPCRAFT_PART_INSTALL}/bin/formatlab
+      chmod +x ${SNAPCRAFT_PART_INSTALL}/bin/formatlab

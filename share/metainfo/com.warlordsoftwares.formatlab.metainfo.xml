@@ -3,27 +3,43 @@
   <id>com.warlordsoftwares.formatlab</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LicenseRef-proprietary=https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/license/LICENSE</project_license>
-  <developer_name>Warlord Softwares</developer_name>
+  <developer_name translate="no">Warlord Softwares</developer_name>
+    <branding>
+        <color type="primary" scheme_preference="light">#9f39a2</color>
+        <color type="primary" scheme_preference="dark">#0b9358</color>
+    </branding>
   <name>FormatLab</name>
-  <summary>Video Converter With Friendly UI</summary>
+  <summary>Convert Videos and Audio Files</summary>
   <description>
     <p>ABOUT APPLICATION :</p>
-    <p>FormatLab is a Powerful Audio Video Converter for converting media files in 4k resolution with widely supported codecs.</p>
+    <p>FormatLab is a powerful audio and video converter that supports 4K resolution and a wide range of codecs.</p>
     <p>FEATURES :</p>
     <ul>
-      <li>Supports All Popular Video Formats with Modern Lossless Compression Technique.</li>
-      <li>Supports All Popular Audio Formats in High quality Output with One Click.</li>
-      <li>Supports Video to HD Audio File Conversion.</li>
-      <li>Supports Batch Conversions for video and audio files.</li>
-      <li>Supports Video Quality Tweak to change Lossless Quality for a video.</li>
-      <li>Supports FPS Tweak to increase/decrease frame per second of a video.</li>
-      <li>Supports Drag and Drop files Feature for easy Usability.</li>
-      <li>System Monitor App inside to see your CPU usage while conversion.</li>
+       <li>Convert all popular video and audio formats with lossless compression.</li>
+        <li>Extract HD audio from any video files.</li>
+        <li>Adjust video quality and frame rate (FPS).</li>
+        <li>Supports surround sound (5.1 and 7.1 channels).</li>
+        <li>Hardware acceleration with GPU for faster conversions.</li>
+        <li>Batch convert multiple files at once.</li>
+        <li>Drag and drop files for quick use.</li>
+        <li>Built-in CPU usage monitor during conversion.</li>
+        <li>Wide format support: H.264, HEVC, VP9, AAC, MP3, FLAC and more.</li>
     </ul>
+
+      <p>WHAT SETS FORMATLAB APART?</p>
+        <ul>
+            <li>Easy-to-use interface for hassle-free conversions.</li>
+            <li>Faster conversions with hardware-accelerated GPU support.</li>
+            <li>Supports upto 8K videos with all popular formats.</li>
+        </ul>
+
     <p>SUPPORTED VIDEO FORMATS:</p>
-    <p>mp4, mov, wmv, avi, flv, f4v, mkv, webm, mpeg, m2ts, mpg, asf, swf, etc</p>
-    <p>SUPPORTED AUDIO FORMATS:</p>
-    <p>mp3, m4a, wav, wma, aac, ogg, pcm, aiff, flac, etc</p>
+      <p>'mp4', 'mkv', 'mov', 'avi', 'webm', 'wmv', 'flv', 'mpeg', 'mpg', 'm2ts', '3gp', 'vob', 'ts', 'ogv', 'f4v', 'mxf', 'asf', 'hevc', 'm2v', 'mts', 'wtv'</p>
+
+      <p>SUPPORTED AUDIO FORMATS:</p>
+    <p>'aac', 'mp3', 'wav', 'flac', 'm4a', 'ogg', 'wma', 'opus', 'aiff', 'dts', 'ac3', 'mp2', 'voc', 'ra', 'tta', 'wv', 'caf', 'm4r'</p>
+
+      <p>High-quality media conversions made easy with FormatLab</p>
   </description>
     <keywords>
         <keyword translate="no">FormatLab</keyword>
@@ -55,30 +71,81 @@
         <keyword>Tipard</keyword>
         <keyword>Any Video Converter</keyword>
         <keyword>Zamzar</keyword>
+        <keyword>easy-to-use</keyword>
+        <keyword>audio and video converter</keyword>
+        <keyword>4K resolution</keyword>
         <keyword>Hamster</keyword>
+        <keyword>popular formats</keyword>
+        <keyword>high-quality conversions</keyword>
         <keyword>MediaCoder</keyword>
         <keyword>Gihosoft</keyword>
         <keyword>Clone2Go</keyword>
         <keyword>iTube Studio</keyword>
+        <!--		German keywords-->
+        <keyword>Video-Konverter</keyword>
+        <keyword>Audio-Konverter</keyword>
+        <keyword>MP4-Konverter</keyword>
+        <keyword>MP3-Konverter</keyword>
+        <keyword>Video-zu-MP3-Konverter</keyword>
+        <!--		French keywords-->
+        <keyword>convertisseur vidéo</keyword>
+        <keyword>convertisseur audio</keyword>
+        <keyword>convertisseur MP4</keyword>
+        <keyword>convertisseur MP3</keyword>
+        <keyword>convertisseur vidéo en MP3</keyword>
+        <!--		Italian keywords-->
+        <keyword>convertitore video</keyword>
+        <keyword>convertitore audio</keyword>
+        <keyword>convertitore MP4</keyword>
+        <keyword>convertitore MP3</keyword>
+        <keyword>convertitore da video a MP3</keyword>
+        <!--		Spanish keywords-->
+        <keyword>convertidor de video</keyword>
+        <keyword>convertidor de audio</keyword>
+        <keyword>convertidor MP4</keyword>
+        <keyword>convertidor MP3</keyword>
+        <keyword>convertidor de video a MP3</keyword>
+        <!--		Japanese keywords-->
+        <keyword>動画変換ソフト</keyword>
+        <keyword>音声変換ソフト</keyword>
+        <keyword>MP4変換ソフト</keyword>
+        <keyword>MP3変換ソフト</keyword>
+        <keyword>動画をMP3に変換</keyword>
+        <!--		Swedish Keywords-->
+        <keyword>videokonverterare</keyword>
+        <keyword>ljudkonverterare</keyword>
+        <keyword>MP4-konverterare</keyword>
+        <keyword>MP3-konverterare</keyword>
+        <keyword>video till MP3-konverterare</keyword>
 	</keywords>
+    <categories>
+		<category>Utility</category>
+		<category>AudioVideo</category>
+	</categories>
   <screenshots>
     <screenshot type="default">
-      <image>https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/formatlab-warlordsoftwares_1.jpg</image>
+        <caption>FORMATLAB: Formatlab home page</caption>
+      <image type="source">https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/formatlab-warlordsoftwares_1.jpg</image>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/formatlab-warlordsoftwares_2.jpg</image>
+        <caption>FORMATLAB: Video conversion page</caption>
+      <image type="source">https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/formatlab-warlordsoftwares_2.jpg</image>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/formatlab-warlordsoftwares_3.jpg</image>
+        <caption>FORMATLAB: System monitor page</caption>
+      <image type="source">https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/formatlab-warlordsoftwares_3.jpg</image>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/formatlab-warlordsoftwares_4.jpg</image>
+        <caption>FORMATLAB: App settings page</caption>
+      <image type="source">https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/formatlab-warlordsoftwares_4.jpg</image>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/formatlab-warlordsoftwares_5.jpg</image>
+        <caption>FORMATLAB: Video convert option page</caption>
+      <image type="source">https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/formatlab-warlordsoftwares_5.jpg</image>
     </screenshot>
   </screenshots>
-  <url type="homepage">https://github.com/rishabh3354/FORMAT_LAB</url>
+  <url type="homepage">https://warlordsoftwares.com/trending-apps/formatlab-pro-convert-or-compress-video-audio-formats-one-click/</url>
+  <url type="vcs-browser">https://github.com/rishabh3354/FORMAT_LAB/</url>
   <url type="bugtracker">https://github.com/rishabh3354/FORMAT_LAB/issues</url>
   <url type="contact">https://warlordsoftwares.com/contact-us/</url>
   <url type="donation">https://www.paypal.me/rishabh3354/10</url>
@@ -86,6 +153,22 @@
   <launchable type="desktop-id">com.warlordsoftwares.formatlab.desktop</launchable>
    <content_rating type="oars-1.1" />
   <releases>
+      <release version="2025.9.16" date="2025-9-16">
+			<description>
+				<p>Enhanced user interface for a smoother experience.</p>
+                <p>More audio and video conversion options available.</p>
+                <p>New "Apply to All" feature for bulk operations.</p>
+                <p>Hardware acceleration with GPU for faster conversions.</p>
+                <p>"Reset All" button to easily redo operations.</p>
+                <p>Supports surround sound with 5.1 and 7.1 channels.</p>
+                <p>Minor fixes and overall improvements.</p>
+			</description>
+		</release>
+      <release version="2025.7.1" date="2025-7-1">
+			<description>
+				<p>Bug fixes and improvements</p>
+			</description>
+		</release>
      <release version="2024.12.1" date="2024-11-28" />
      <release version="2024.7.5" date="2024-7-5" />
      <release version="2024.6.7" date="2024-6-7" />

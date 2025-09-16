@@ -4,36 +4,38 @@
 
 **FEATURES :** 
 
-- Supports **All Popular Video Formats** with Modern Lossless Compression Technique.
-- Supports **All Popular Audio Formats** in High quality Output with One Click.
-- Supports **Video to HD Audio** File Conversion.
-- Supports **Batch Conversions** for video and audio files.
-- Supports **Video Quality Tweak** to change Lossless Quality for a video.
-- Supports **FPS Tweak** to increase/decrease frame per second of a video.
-- Supports **Drag and Drop files** Feature for easy Usability.
-- System Monitor App inside to see your CPU usage while conversion.
+
+- Convert all **popular video and audio formats** with lossless compression.
+- Extract **HD audio** from any video files.
+- Adjust **video quality and frame rate** (FPS).
+- Supports **surround sound** (5.1 and 7.1 channels).
+- **Hardware acceleration** with GPU for faster conversions.
+- **Batch convert** multiple files at once.
+- **Drag and drop** files for quick use.
+- Built-in **CPU usage monitor** during conversion.
+- Wide format support: **H.264, HEVC, VP9, AAC, MP3, FLAC** and more.
+
+
+**WHAT SETS FORMATLAB APART?** 
+
+- Easy-to-use interface for hassle-free conversions.
+- Faster conversions with hardware-accelerated GPU support.
+- Supports upto 8K videos with all popular formats.
+
 
 **Supported Video Formats:**  
   
-'mp4', 'mov', 'wmv', 'avi', 'flv', 'f4v', 'mkv', 'webm', 'mpeg',  
-'m2ts', 'mpg', 'asf', 'swf' ..etc  
+'mp4', 'mkv', 'mov', 'avi', 'webm', 'wmv', 'flv', 'mpeg', 'mpg', 'm2ts', '3gp', 
+'vob', 'ts', 'ogv', 'f4v', 'mxf', 'asf', 'hevc', 'm2v', 'mts', 'wtv'
   
 **Supported Audio Formats:**  
   
-'mp3', 'm4a', 'wav', 'wma', 'aac', 'ogg', 'pcm', 'aiff', 'flac' .. etc  
-  
-**Support Valid input video formats**  
-  
-'ogg', 'rmvb', 'wmv', 'm4v', 'vro', 'm2v', 'webm', 'mpeg', 'tp',  
-'mpg', 'ts', 'm2ts', 'mpeg4', 'm2p', 'mkv', '3gp2', 'mpeg2',  
-'mod', 'tod', 'mxf', 'swf', 'mts', '3gp', 'dvr-ms', 'mov', 'amv',  
-'3gpp', 'mpv', 'avi', 'ogv', 'dat', 'flv', 'mp4', 'vob', 'ogm',  
-'qt', 'avs', 'asf', 'mpe', 'rm', 'trp', 'm1v', 'f4v', 'm2t',  
-'3g2', 'nsv', 'dv', 'divx' ..etc  
-  
-**Support Valid input audio formats**  
-  
-'mp3', 'm4a', 'wav', 'wma', 'aac', 'ogg', 'pcm', 'aiff', 'flac' ..etc  
+'aac', 'mp3', 'wav', 'flac', 'm4a', 'ogg', 'wma', 'opus', 'aiff', 'dts', 
+'ac3', 'mp2', 'voc', 'ra', 'tta', 'wv', 'caf', 'm4r'  
+
+
+**High-quality media conversions made easy with FormatLab**
+
 
 ## Install FormatLab on Linux Desktop:
 
