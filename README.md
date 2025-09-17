@@ -37,6 +37,7 @@
 **High-quality media conversions made easy with FormatLab**
 
 
+
 ## Install FormatLab on Linux Desktop:
 
 **Snap**
