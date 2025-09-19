@@ -36,7 +36,6 @@ apps:
        - hardware-observe
        - optical-drive
        - removable-media
-       - dri
 
 plugs:
   gsettings:
