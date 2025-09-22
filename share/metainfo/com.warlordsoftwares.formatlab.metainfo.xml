@@ -153,7 +153,7 @@
   <launchable type="desktop-id">com.warlordsoftwares.formatlab.desktop</launchable>
    <content_rating type="oars-1.1" />
   <releases>
-      <release version="2025.9.19" date="2025-9-19">
+      <release version="2025.9.22" date="2025-9-22">
 			<description>
 				<p>Enhanced user interface for a smoother experience.</p>
                 <p>More audio and video conversion options available.</p>
