@@ -153,6 +153,11 @@
   <launchable type="desktop-id">com.warlordsoftwares.formatlab.desktop</launchable>
    <content_rating type="oars-1.1" />
   <releases>
+      <release version="2026.1.6" date="2026-1-6">
+			<description>
+                <p>Minor fixes and overall improvements.</p>
+			</description>
+		</release>
       <release version="2025.12.8" date="2025-12-8">
 			<description>
 				<p>Hardware acceleration with GPU fixes</p>
