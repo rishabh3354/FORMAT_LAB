@@ -66,15 +66,15 @@ and run
 
 ## Screenshots of FormatLab
 
-![FormatLab](https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/formatlab-warlordsoftwares_1.jpg?raw=true)
+![FormatLab](https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/video-convert-options.png?raw=true)
 
-![FormatLab](https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/formatlab-warlordsoftwares_2.jpg?raw=true)
+![FormatLab](https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/home-page.png?raw=true)
 
-![FormatLab](https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/formatlab-warlordsoftwares_3.jpg?raw=true)
+![FormatLab](https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/audio-convert-options.png?raw=true)
 
-![FormatLab](https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/formatlab-warlordsoftwares_4.jpg?raw=true)
+![FormatLab](https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/app-settings.png?raw=true)
 
-![FormatLab](https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/formatlab-warlordsoftwares_5.jpg?raw=true)
+![FormatLab](https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/system-monitor.png?raw=true)
 
 
 **KEYWORDS:** 
