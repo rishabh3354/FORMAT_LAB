@@ -124,24 +124,24 @@
 	</categories>
   <screenshots>
     <screenshot type="default">
-        <caption>FORMATLAB: Formatlab home page</caption>
-      <image type="source">https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/formatlab-warlordsoftwares_1.jpg</image>
-    </screenshot>
-    <screenshot>
         <caption>FORMATLAB: Video conversion page</caption>
-      <image type="source">https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/formatlab-warlordsoftwares_2.jpg</image>
+      <image type="source">https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/video-convert-options.png</image>
     </screenshot>
     <screenshot>
-        <caption>FORMATLAB: System monitor page</caption>
-      <image type="source">https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/formatlab-warlordsoftwares_3.jpg</image>
+        <caption>FORMATLAB: Home page</caption>
+      <image type="source">https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/home-page.png</image>
+    </screenshot>
+    <screenshot>
+        <caption>FORMATLAB: Audio convertion page </caption>
+      <image type="source">https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/audio-convert-options.png</image>
     </screenshot>
     <screenshot>
         <caption>FORMATLAB: App settings page</caption>
-      <image type="source">https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/formatlab-warlordsoftwares_4.jpg</image>
+      <image type="source">https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/app-settings.png</image>
     </screenshot>
     <screenshot>
-        <caption>FORMATLAB: Video convert option page</caption>
-      <image type="source">https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/formatlab-warlordsoftwares_5.jpg</image>
+        <caption>FORMATLAB: System monitor page</caption>
+      <image type="source">https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/system-monitor.png</image>
     </screenshot>
   </screenshots>
   <url type="homepage">https://warlordsoftwares.com/trending-apps/formatlab-pro-convert-or-compress-video-audio-formats-one-click/</url>
