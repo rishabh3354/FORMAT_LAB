@@ -153,6 +153,7 @@
   <launchable type="desktop-id">com.warlordsoftwares.formatlab.desktop</launchable>
    <content_rating type="oars-1.1" />
   <releases>
+      <release version="2026.7.23" date="2026-7-23" />
       <release version="2026.7.2" date="2026-7-1">
 			<description>
 				<p>Bug fixes and improvements</p>

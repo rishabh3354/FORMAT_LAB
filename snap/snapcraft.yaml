@@ -1,6 +1,6 @@
 name: formatlab
 base: core22
-version: '2026.7.2'
+version: '2026.7.23'
 summary: Convert Videos and Audio Files
 description:  FormatLab is a powerful audio and video converter that supports 4K resolution and a wide range of codecs.
 grade: stable
@@ -19,7 +19,8 @@ apps:
     command: bin/desktop-launch formatlab
     desktop: formatlab.desktop
     environment:
-      DISABLE_WAYLAND: 1
+      APP_PLATFORM: "SNAP"
+      
     plugs:
        - home
        - gsettings
