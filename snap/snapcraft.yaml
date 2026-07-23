@@ -20,7 +20,8 @@ apps:
     desktop: formatlab.desktop
     environment:
       APP_PLATFORM: "SNAP"
-      
+      LIBVA_DRIVERS_PATH: $SNAP/content-snap-core22/usr/lib/x86_64-linux-gnu/dri:/var/lib/snapd/lib/gl/dri:/usr/lib/x86_64-linux-gnu/dri
+
     plugs:
        - home
        - gsettings
