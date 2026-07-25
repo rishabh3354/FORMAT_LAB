@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/rishabh3354/4KTUBE/main/share/screenshots/formatlab_banner.png" alt="FormatLab Banner" width="100%">
+  <img src="https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/formatlab_banner.png" alt="FormatLab Banner" width="100%">
 </p>
 
 
