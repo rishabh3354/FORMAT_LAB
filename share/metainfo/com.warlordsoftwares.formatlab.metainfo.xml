@@ -153,6 +153,12 @@
   <launchable type="desktop-id">com.warlordsoftwares.formatlab.desktop</launchable>
    <content_rating type="oars-1.1" />
   <releases>
+      <release version="2026.8.8" date="2026-8-8">
+			<description>
+				<p>Video MPV playback issue: fixed</p>
+				<p>Hardware acceleration with GPU fixes</p>
+			</description>
+		</release>
       <release version="2026.7.23" date="2026-7-23" />
       <release version="2026.7.2" date="2026-7-1">
 			<description>
