@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FormatLab — Video &amp; Audio Converter for Linux and Windows</title>
+<meta name="description" content="Free video and audio converter for Linux and Windows. Convert MP4, MKV, MOV, MP3, FLAC and 40+ formats with GPU acceleration and batch mode. FFmpeg-powered.">
+<link rel="canonical" href="https://rishabh3354.github.io/FORMAT_LAB/">
+<meta name="author" content="Warlord Softwares">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Warlord Softwares">
+<meta property="og:title" content="FormatLab — Video &amp; Audio Converter for Linux and Windows">
+<meta property="og:description" content="Free video and audio converter for Linux and Windows. Convert MP4, MKV, MOV, MP3, FLAC and 40+ formats with GPU acceleration and batch mode. FFmpeg-powered.">
+<meta property="og:url" content="https://rishabh3354.github.io/FORMAT_LAB/">
+<meta property="og:image" content="https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/formatlab_banner.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="FormatLab — Video &amp; Audio Converter for Linux and Windows">
+<meta name="twitter:description" content="Free video and audio converter for Linux and Windows. Convert MP4, MKV, MOV, MP3, FLAC and 40+ formats with GPU acceleration and batch mode. FFmpeg-powered.">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/formatlab_banner.png">
+<link rel="icon" href="https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/icons/icon.png">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#ffffff;--panel:#f6f7f9;--text:#16181d;--muted:#5b6270;--line:#e3e6ea;
+  --accent:#0b9358;--code-bg:#f0f2f5;--shadow:0 1px 3px rgba(0,0,0,.07);
+}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#0f1115;--panel:#171a20;--text:#e9ecf1;--muted:#98a0ae;--line:#252a33;
+        --code-bg:#1c2028;--shadow:0 1px 3px rgba(0,0,0,.4)}
+}
+:root[data-theme="dark"]{--bg:#0f1115;--panel:#171a20;--text:#e9ecf1;--muted:#98a0ae;
+  --line:#252a33;--code-bg:#1c2028;--shadow:0 1px 3px rgba(0,0,0,.4)}
+:root[data-theme="light"]{--bg:#ffffff;--panel:#f6f7f9;--text:#16181d;--muted:#5b6270;
+  --line:#e3e6ea;--code-bg:#f0f2f5;--shadow:0 1px 3px rgba(0,0,0,.07)}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);
+  font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:960px;margin:0 auto;padding:0 1.25rem}
+header.hero{padding:3.5rem 0 2.5rem;text-align:center;border-bottom:1px solid var(--line)}
+h1{font-size:clamp(1.75rem,4.5vw,2.6rem);line-height:1.2;letter-spacing:-.02em;margin:0 0 .6rem}
+.sub{color:var(--muted);font-size:clamp(1rem,2.2vw,1.15rem);max-width:44rem;margin:0 auto 1.75rem}
+.banner{border-radius:12px;border:1px solid var(--line);box-shadow:var(--shadow);margin:0 0 2rem}
+.badges{display:flex;flex-wrap:wrap;gap:.4rem;justify-content:center;margin:0 0 1.75rem}
+.badges img{display:inline-block}
+.cta{display:flex;flex-wrap:wrap;gap:.6rem;justify-content:center}
+.btn{display:inline-block;padding:.7rem 1.3rem;border-radius:8px;font-weight:600;font-size:.95rem;
+  border:1px solid var(--line);background:var(--panel);color:var(--text)}
+.btn:hover{text-decoration:none;border-color:var(--accent)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+section{padding:3rem 0;border-bottom:1px solid var(--line)}
+h2{font-size:clamp(1.3rem,3vw,1.7rem);letter-spacing:-.01em;margin:0 0 1.25rem}
+h3{font-size:1.02rem;margin:0 0 .35rem}
+.grid{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:1.1rem 1.2rem}
+.card p{margin:0;color:var(--muted);font-size:.93rem}
+.card h3{color:var(--text)}
+pre{background:var(--code-bg);border:1px solid var(--line);border-radius:8px;padding:.85rem 1rem;
+  overflow-x:auto;margin:.5rem 0 0}
+code{font:.88rem/1.5 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+dl.ref{margin:0;display:grid;gap:.9rem}
+dl.ref dt{font-weight:600;font-size:.9rem;color:var(--accent);text-transform:uppercase;letter-spacing:.06em}
+dl.ref dd{margin:.25rem 0 0;color:var(--muted);font-size:.95rem;word-spacing:.1em}
+.shots{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.shots img{border-radius:10px;border:1px solid var(--line);box-shadow:var(--shadow)}
+details{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+  padding:.9rem 1.1rem;margin:0 0 .6rem}
+details summary{cursor:pointer;font-weight:600;list-style:none}
+details summary::-webkit-details-marker{display:none}
+details summary::after{content:"+";float:right;color:var(--accent);font-weight:700}
+details[open] summary::after{content:"\2212"}
+details p{margin:.7rem 0 0;color:var(--muted);font-size:.95rem}
+.notice{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--accent);
+  border-radius:8px;padding:1rem 1.2rem;color:var(--muted);font-size:.93rem}
+footer{padding:2.5rem 0 3.5rem;color:var(--muted);font-size:.9rem}
+footer a{color:var(--muted);text-decoration:underline}
+footer nav{margin:0 0 1rem;display:flex;flex-wrap:wrap;gap:1rem}
+.tbl{width:100%;border-collapse:collapse;font-size:.94rem}
+.tbl th,.tbl td{text-align:left;padding:.6rem .7rem;border-bottom:1px solid var(--line);vertical-align:top}
+.tbl th{color:var(--accent);font-size:.8rem;text-transform:uppercase;letter-spacing:.06em}
+.tbl td:first-child{font-weight:600;white-space:nowrap}
+.tbl td:last-child{color:var(--muted)}
+.scroll{overflow-x:auto}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"FormatLab","applicationCategory":"MultimediaApplication","operatingSystem":"Linux, Windows 10, Windows 11","description":"Free video and audio converter for Linux and Windows. Convert MP4, MKV, MOV, MP3, FLAC and 40+ formats with GPU acceleration and batch mode. FFmpeg-powered.","url":"https://rishabh3354.github.io/FORMAT_LAB/","downloadUrl":"https://github.com/rishabh3354/FORMAT_LAB/releases/latest/download/FormatLab-x86_64.AppImage","screenshot":"https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/formatlab_banner.png","softwareVersion":"latest","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Organization","name":"Warlord Softwares","url":"https://warlordsoftwares.com/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is FormatLab free?","acceptedAnswer":{"@type":"Answer","text":"FormatLab is free to download and use for everyday conversions. A one-time Pro upgrade unlocks unlimited batch queues and the full feature set \u2014 there is no subscription."}},{"@type":"Question","name":"Does FormatLab upload my files anywhere?","acceptedAnswer":{"@type":"Answer","text":"No. All conversion happens locally with FFmpeg on your own machine. There is no upload, no file-size cap and no server-side queue, so it works offline and with confidential footage."}},{"@type":"Question","name":"Does FormatLab work on Ubuntu, Fedora and Arch?","acceptedAnswer":{"@type":"Answer","text":"Yes. Install it as a Snap, a Flatpak from Flathub, or a portable AppImage that runs on essentially any modern Linux distribution."}},{"@type":"Question","name":"Can it convert 4K and 8K video?","acceptedAnswer":{"@type":"Answer","text":"Yes. FormatLab handles sources up to 8K, and GPU acceleration keeps large UHD encodes practical."}},{"@type":"Question","name":"Can it convert multiple files at once?","acceptedAnswer":{"@type":"Answer","text":"Yes. Drag in a whole folder, set the output format once, and FormatLab converts the entire queue."}},{"@type":"Question","name":"Does it keep 5.1 or 7.1 surround sound?","acceptedAnswer":{"@type":"Answer","text":"Yes. Multi-channel audio is preserved rather than downmixed to stereo."}},{"@type":"Question","name":"Does converting lose quality?","acceptedAnswer":{"@type":"Answer","text":"Any lossy re-encode loses some quality. FormatLab exposes bitrate and quality controls so you can stay visually lossless, and format-only changes such as MKV to MP4 can often be done without re-encoding the video stream."}},{"@type":"Question","name":"Is FormatLab open source?","acceptedAnswer":{"@type":"Answer","text":"No. FormatLab is a proprietary desktop application built on FFmpeg. The GitHub repository hosts releases, packaging metadata and the issue tracker rather than the application source."}}]}</script>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <h1>FormatLab — Video &amp; Audio Converter for Linux and Windows</h1>
+    <p class="sub">Convert video and audio between 40+ formats with GPU-accelerated encoding, batch queues and drag-and-drop. Everything runs locally on your own machine — no uploads, no file-size caps, no ads.</p>
+    <div class="badges">
+      <img src="https://img.shields.io/flathub/downloads/com.warlordsoftwares.formatlab?style=flat-square&label=Flathub%20installs&color=4A90D9" alt="Flathub installs" height="20">
+      <img src="https://img.shields.io/snapcraft/v/formatlab/latest/stable?style=flat-square&label=Snap&color=E95420" alt="Snap Store version" height="20">
+      <img src="https://img.shields.io/github/v/release/rishabh3354/FORMAT_LAB?style=flat-square&label=Release&color=2ea44f" alt="Latest release" height="20">
+      <img src="https://img.shields.io/github/stars/rishabh3354/FORMAT_LAB?style=flat-square&color=f5c518" alt="GitHub stars" height="20">
+    </div>
+    <div class="cta">
+      <a class="btn primary" href="https://github.com/rishabh3354/FORMAT_LAB/releases/latest/download/FormatLab-x86_64.AppImage">Download AppImage</a>
+      <a class="btn" href="https://github.com/rishabh3354/FORMAT_LAB/releases/latest/download/FORMAT_LAB.exe">Download for Windows</a>
+      <a class="btn" href="https://flathub.org/apps/details/com.warlordsoftwares.formatlab">Flathub</a>
+      <a class="btn" href="https://snapcraft.io/formatlab">Snap Store</a>
+      <a class="btn" href="https://github.com/rishabh3354/FORMAT_LAB">GitHub</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section id="screenshot-banner">
+    <div class="wrap">
+      <img class="banner" src="https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/formatlab_banner.png" alt="FormatLab — Video &amp; Audio Converter for Linux and Windows" width="1600" height="600">
+    </div>
+  </section>
+
+  <section id="download">
+    <div class="wrap">
+      <h2>Download and install FormatLab</h2>
+      <h3>Linux — Snap</h3>
+      <pre><code>sudo snap install formatlab</code></pre>
+      <h3>Linux — Flatpak</h3>
+      <pre><code>flatpak install flathub com.warlordsoftwares.formatlab</code></pre>
+      <h3>Linux — AppImage (any distribution)</h3>
+      <pre><code>wget https://github.com/rishabh3354/FORMAT_LAB/releases/latest/download/FormatLab-x86_64.AppImage
+chmod +x FormatLab-x86_64.AppImage
+./FormatLab-x86_64.AppImage</code></pre>
+      <h3>Windows 10 and 11</h3>
+      <p>Download <a href="https://github.com/rishabh3354/FORMAT_LAB/releases/latest/download/FORMAT_LAB.exe">FORMAT_LAB.exe</a> from the
+      <a href="https://github.com/rishabh3354/FORMAT_LAB/releases/latest">latest release</a> and run the installer.</p>
+    </div>
+  </section>
+
+  <section id="features">
+    <div class="wrap">
+      <h2>Features</h2>
+      <div class="grid">
+        <div class="card"><h3>Every popular format</h3><p>MP4, MKV, MOV, AVI, WebM, MP3, FLAC, WAV, AAC and 30+ more, with modern widely supported codecs.</p></div>
+        <div class="card"><h3>GPU acceleration</h3><p>NVIDIA, AMD and Intel hardware encoding makes large conversions dramatically faster than CPU-only tools.</p></div>
+        <div class="card"><h3>Batch conversion</h3><p>Queue a whole folder, set the output format once and convert everything in one run.</p></div>
+        <div class="card"><h3>Extract audio</h3><p>Pull a clean MP3, FLAC, WAV or Opus track out of any MP4, MKV or MOV file.</p></div>
+        <div class="card"><h3>Compress without wrecking quality</h3><p>Control bitrate, CRF quality, resolution and frame rate to hit a target file size.</p></div>
+        <div class="card"><h3>Up to 8K, surround intact</h3><p>Handles UHD and high-frame-rate sources, and preserves 5.1 and 7.1 audio instead of downmixing.</p></div>
+        <div class="card"><h3>Fully offline</h3><p>Files never leave your computer, unlike browser-based converters with upload limits.</p></div>
+        <div class="card"><h3>No ads, no watermarks</h3><p>No advertising, no tracking, no output watermark.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="reference">
+    <div class="wrap">
+      <h2>Supported formats</h2>
+      <dl class="ref">
+        <dt>Video</dt><dd>MP4 · MKV · MOV · AVI · WebM · WMV · FLV · MPEG · MPG · M2TS · 3GP · VOB · TS · OGV · F4V · MXF · ASF · HEVC · M2V · MTS · WTV</dd>
+        <dt>Audio</dt><dd>MP3 · AAC · WAV · FLAC · M4A · OGG · WMA · Opus · AIFF · DTS · AC3 · MP2 · VOC · RA · TTA · WV · CAF · M4R</dd>
+        <dt>Video codecs</dt><dd>H.264 / AVC · H.265 / HEVC · VP9 · MPEG-4 · MPEG-2</dd>
+        <dt>Audio codecs</dt><dd>AAC · MP3 · FLAC · Opus · Vorbis · AC3 · PCM</dd>
+      </dl>
+    </div>
+  </section>
+
+  <section id="tasks">
+    <div class="wrap">
+      <h2>Common conversions</h2>
+      <div class="scroll">
+        <table class="tbl">
+          <thead><tr><th>Task</th><th>What FormatLab does</th></tr></thead>
+          <tbody>
+          <tr><td>Convert MKV to MP4</td><td>Remux or re-encode MKV into a universally playable MP4.</td></tr>
+          <tr><td>Convert video to MP3</td><td>Extract the audio track and save it as high-bitrate MP3.</td></tr>
+          <tr><td>Convert MOV to MP4</td><td>Turn iPhone and camera MOV files into shareable MP4.</td></tr>
+          <tr><td>Convert MP4 to HEVC</td><td>Cut file size roughly in half at the same visual quality.</td></tr>
+          <tr><td>Convert FLAC to MP3</td><td>Shrink a lossless library for phones and car stereos.</td></tr>
+          <tr><td>Compress a 4K video</td><td>Lower bitrate, resolution or frame rate to hit a target size.</td></tr>
+          <tr><td>Change frame rate</td><td>Convert 60fps to 30fps or match a project timeline.</td></tr>
+          <tr><td>Convert a whole folder</td><td>Batch queue every file and run them back to back.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="screenshots">
+    <div class="wrap">
+      <h2>Screenshots</h2>
+      <div class="shots">
+        <img src="https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/video-convert-options.png" alt="FormatLab video conversion settings — codec, resolution, bitrate and frame rate" loading="lazy" width="1200" height="750">
+        <img src="https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/home-page.png" alt="FormatLab home screen with drag-and-drop file queue" loading="lazy" width="1200" height="750">
+        <img src="https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/audio-convert-options.png" alt="FormatLab audio conversion settings — MP3, FLAC and WAV bitrate and channels" loading="lazy" width="1200" height="750">
+        <img src="https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/app-settings.png" alt="FormatLab application settings and output preferences" loading="lazy" width="1200" height="750">
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="wrap">
+      <h2>Frequently asked questions</h2>
+        <details><summary>Is FormatLab free?</summary><p>FormatLab is free to download and use for everyday conversions. A one-time Pro upgrade unlocks unlimited batch queues and the full feature set — there is no subscription.</p></details>
+        <details><summary>Does FormatLab upload my files anywhere?</summary><p>No. All conversion happens locally with FFmpeg on your own machine. There is no upload, no file-size cap and no server-side queue, so it works offline and with confidential footage.</p></details>
+        <details><summary>Does FormatLab work on Ubuntu, Fedora and Arch?</summary><p>Yes. Install it as a Snap, a Flatpak from Flathub, or a portable AppImage that runs on essentially any modern Linux distribution.</p></details>
+        <details><summary>Can it convert 4K and 8K video?</summary><p>Yes. FormatLab handles sources up to 8K, and GPU acceleration keeps large UHD encodes practical.</p></details>
+        <details><summary>Can it convert multiple files at once?</summary><p>Yes. Drag in a whole folder, set the output format once, and FormatLab converts the entire queue.</p></details>
+        <details><summary>Does it keep 5.1 or 7.1 surround sound?</summary><p>Yes. Multi-channel audio is preserved rather than downmixed to stereo.</p></details>
+        <details><summary>Does converting lose quality?</summary><p>Any lossy re-encode loses some quality. FormatLab exposes bitrate and quality controls so you can stay visually lossless, and format-only changes such as MKV to MP4 can often be done without re-encoding the video stream.</p></details>
+        <details><summary>Is FormatLab open source?</summary><p>No. FormatLab is a proprietary desktop application built on FFmpeg. The GitHub repository hosts releases, packaging metadata and the issue tracker rather than the application source.</p></details>
+    </div>
+  </section>
+
+  <section id="other-apps">
+    <div class="wrap">
+      <h2>Other apps by Warlord Softwares</h2>
+      <div class="scroll">
+        <table class="tbl">
+          <thead><tr><th>App</th><th>What it does</th></tr></thead>
+          <tbody>
+          <tr><td><a href="https://rishabh3354.github.io/4KTUBE/">4KTUBE</a></td><td>YouTube Downloader for Linux and Windows</td></tr>
+          <tr><td><a href="https://rishabh3354.github.io/4KWALL/">4KWALL</a></td><td>Wallpaper Manager &amp; Auto Wallpaper Changer</td></tr>
+          <tr><td><a href="https://rishabh3354.github.io/YOUTUBE-DL-PRO/">DL-YouTube</a></td><td>Media Downloader for 1400+ Sites</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <nav>
+      <a href="https://github.com/rishabh3354/FORMAT_LAB">GitHub repository</a>
+      <a href="https://github.com/rishabh3354/FORMAT_LAB/releases/latest">Releases</a>
+      <a href="https://github.com/rishabh3354/FORMAT_LAB/issues">Report an issue</a>
+      <a href="https://flathub.org/apps/details/com.warlordsoftwares.formatlab">Flathub</a>
+      <a href="https://snapcraft.io/formatlab">Snap Store</a>
+      <a href="https://warlordsoftwares.com/trending-apps/formatlab-pro-convert-or-compress-video-audio-formats-one-click/">Website</a>
+      <a href="https://rishabh3354.github.io/FORMAT_LAB/privacy.html">Privacy policy</a>
+    </nav>
+    <p>FormatLab is proprietary software. &copy; 2024&ndash;2026 Rishabh Bhardwaj / Warlord Softwares.</p>
+  </div>
+</footer>
+
+</body>
+</html>
