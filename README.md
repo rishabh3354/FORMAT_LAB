@@ -225,6 +225,7 @@ People usually land here after trying one of these:
 
 ## 🔗 Links
 
+- 📄 **Download page:** [rishabh3354.github.io/FORMAT_LAB](https://rishabh3354.github.io/FORMAT_LAB/)
 - 🌐 **Website:** [warlordsoftwares.com](https://warlordsoftwares.com/trending-apps/formatlab-pro-convert-or-compress-video-audio-formats-one-click/)
 - 📦 **Flathub:** [com.warlordsoftwares.formatlab](https://flathub.org/apps/details/com.warlordsoftwares.formatlab)
 - 📦 **Snap Store:** [snapcraft.io/formatlab](https://snapcraft.io/formatlab)
