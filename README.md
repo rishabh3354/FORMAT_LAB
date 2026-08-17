@@ -20,7 +20,7 @@
   <img src="https://img.shields.io/badge/Offline-100%25%20local-success?style=flat-square" alt="Converts files offline on your own device">
 </p>
 
-> ⭐ **Used by 76,000+ people on Flathub alone.** If FormatLab saves you a trip to a sketchy online converter, [star the repo](https://github.com/rishabh3354/FORMAT_LAB/stargazers) — it is the main way people find it.
+> **Used by 76,000+ people on Flathub alone.**
 
 ---
 
@@ -215,11 +215,7 @@ People usually land here after trying one of these:
 
 ## 🧩 More apps by Warlord Softwares
 
-| App | What it does |
-|---|---|
-| **[4KTUBE](https://github.com/rishabh3354/4KTUBE)** | Download YouTube videos and playlists in 4K / 8K |
-| **[DL-YouTube / Media Downloader](https://github.com/rishabh3354/YOUTUBE-DL-PRO)** | Download video and audio from 1400+ websites |
-| **[4KWALL](https://github.com/rishabh3354/4KWALL)** | Wallpaper manager with auto-rotation and multi-monitor support |
+Other apps by Warlord Softwares are listed on [warlordsoftwares.com](https://warlordsoftwares.com/).
 
 ---
 
@@ -239,10 +235,3 @@ People usually land here after trying one of these:
 FormatLab is proprietary software. © 2024–2026 Rishabh Bhardwaj / Warlord Softwares. See [LICENSE](LICENSE).
 
 FormatLab uses [FFmpeg](https://ffmpeg.org/) for media processing.
-
----
-
-<p align="center">
-  <strong>Found this useful? ⭐ Star the repo — it genuinely helps other people find it.</strong>
-</p>
-
