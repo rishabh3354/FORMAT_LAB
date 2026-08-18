@@ -3,14 +3,13 @@
 **FormatLab is a fast desktop video converter and audio converter for Linux and Windows.** Convert MP4, MKV, MOV, AVI, WebM, MP3, FLAC, WAV and 40+ other formats with GPU-accelerated encoding, batch conversion and drag-and-drop — no ads, no watermarks, no upload to a cloud server. Everything is converted locally on your own machine.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/formatlab_banner.png" alt="FormatLab video and audio converter for Linux and Windows — convert MP4, MKV, MOV, MP3, FLAC" width="100%">
+  <img src="share/screenshots/formatlab_banner.png" alt="FormatLab video and audio converter for Linux and Windows — convert MP4, MKV, MOV, MP3, FLAC" width="100%">
 </p>
 
 <p align="center">
   <a href="https://flathub.org/apps/details/com.warlordsoftwares.formatlab"><img src="https://img.shields.io/flathub/downloads/com.warlordsoftwares.formatlab?style=for-the-badge&label=Flathub%20installs&color=4A90D9" alt="Flathub installs"></a>
   <a href="https://snapcraft.io/formatlab"><img src="https://img.shields.io/snapcraft/v/formatlab/latest/stable?style=for-the-badge&label=Snap&color=E95420" alt="Snap Store version"></a>
-  <a href="https://github.com/rishabh3354/FORMAT_LAB/releases/latest"><img src="https://img.shields.io/github/v/release/rishabh3354/FORMAT_LAB?style=for-the-badge&label=Release&color=2ea44f" alt="Latest release"></a>
-  <a href="https://github.com/rishabh3354/FORMAT_LAB/stargazers"><img src="https://img.shields.io/github/stars/rishabh3354/FORMAT_LAB?style=for-the-badge&color=f5c518" alt="GitHub stars"></a>
+  <a href="https://gitlab.com/warlordsoftwares/formatlab/-/releases"><img src="https://img.shields.io/gitlab/v/tag/warlordsoftwares%2Fformatlab?style=for-the-badge&label=Release&color=2ea44f" alt="Latest release"></a>
 </p>
 
 <p align="center">
@@ -43,8 +42,8 @@
 <p align="center">
   <a href="https://snapcraft.io/formatlab"><img src="https://snapcraft.io/static/images/badges/en/snap-store-black.svg" height="56" alt="Install FormatLab video converter from the Snap Store"></a>&nbsp;
   <a href="https://flathub.org/apps/details/com.warlordsoftwares.formatlab"><img src="https://flathub.org/assets/badges/flathub-badge-en.png" height="56" width="186" alt="Install FormatLab video converter from Flathub"></a>&nbsp;
-  <a href="https://github.com/rishabh3354/FORMAT_LAB/releases/latest/download/FormatLab-x86_64.AppImage"><img src="https://raw.githubusercontent.com/srevinsaju/get-appimage/master/static/badges/get-appimage-branding-blue.png" height="56" alt="Download the FormatLab AppImage for Linux"></a>&nbsp;
-  <a href="https://github.com/rishabh3354/FORMAT_LAB/releases/latest/download/FORMAT_LAB.exe"><img src="https://user-images.githubusercontent.com/66430340/187172806-a8edd12a-ef58-4a05-96a3-99d7490b42f6.png" height="56" alt="Download FormatLab for Windows 10 and Windows 11"></a>
+  <a href="https://gitlab.com/warlordsoftwares/formatlab/-/releases"><img src="https://raw.githubusercontent.com/srevinsaju/get-appimage/master/static/badges/get-appimage-branding-blue.png" height="56" alt="Download the FormatLab AppImage for Linux"></a>&nbsp;
+  <a href="https://gitlab.com/warlordsoftwares/formatlab/-/releases"><img src="https://user-images.githubusercontent.com/66430340/187172806-a8edd12a-ef58-4a05-96a3-99d7490b42f6.png" height="56" alt="Download FormatLab for Windows 10 and Windows 11"></a>
 </p>
 
 ### Install on Linux (terminal)
@@ -59,15 +58,16 @@ flatpak install flathub com.warlordsoftwares.formatlab
 
 ### Install on Linux (AppImage — works on any distro)
 
+Download the latest `.AppImage` from the [releases page](https://gitlab.com/warlordsoftwares/formatlab/-/releases), then:
+
 ```bash
-wget https://github.com/rishabh3354/FORMAT_LAB/releases/latest/download/FormatLab-x86_64.AppImage
 chmod +x FormatLab-x86_64.AppImage
 ./FormatLab-x86_64.AppImage
 ```
 
 ### Install on Windows
 
-Download **[FORMAT_LAB.exe](https://github.com/rishabh3354/FORMAT_LAB/releases/latest/download/FORMAT_LAB.exe)** from the [latest release](https://github.com/rishabh3354/FORMAT_LAB/releases/latest) and run the installer. Windows 10 and Windows 11 (64-bit) are supported.
+Download the Windows installer from the [releases page](https://gitlab.com/warlordsoftwares/formatlab/-/releases) and run it. Windows 10 and Windows 11 (64-bit) are supported.
 
 ---
 
@@ -142,11 +142,11 @@ FormatLab is built for the conversions people actually need every day:
 
 | Video conversion options | Home screen |
 |---|---|
-| ![FormatLab video conversion settings — codec, resolution, bitrate and frame rate](https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/video-convert-options.png) | ![FormatLab home screen with drag-and-drop file queue](https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/home-page.png) |
+| ![FormatLab video conversion settings — codec, resolution, bitrate and frame rate](share/screenshots/video-convert-options.png) | ![FormatLab home screen with drag-and-drop file queue](share/screenshots/home-page.png) |
 
 | Audio conversion options | Settings |
 |---|---|
-| ![FormatLab audio conversion settings — MP3, FLAC, WAV bitrate and channels](https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/audio-convert-options.png) | ![FormatLab application settings and output preferences](https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/app-settings.png) |
+| ![FormatLab audio conversion settings — MP3, FLAC, WAV bitrate and channels](share/screenshots/audio-convert-options.png) | ![FormatLab application settings and output preferences](share/screenshots/app-settings.png) |
 
 ---
 
@@ -198,7 +198,7 @@ No. FormatLab is a proprietary desktop application built on FFmpeg. This reposit
 
 ### How do I report a bug or request a feature?
 
-Open an [issue](https://github.com/rishabh3354/FORMAT_LAB/issues) on this repository.
+Open an [issue](https://gitlab.com/warlordsoftwares/formatlab/-/issues) on this repository.
 
 ---
 
@@ -221,12 +221,11 @@ Other apps by Warlord Softwares are listed on [warlordsoftwares.com](https://war
 
 ## 🔗 Links
 
-- 📄 **Download page:** [rishabh3354.github.io/FORMAT_LAB](https://rishabh3354.github.io/FORMAT_LAB/)
 - 🌐 **Website:** [warlordsoftwares.com](https://warlordsoftwares.com/trending-apps/formatlab-pro-convert-or-compress-video-audio-formats-one-click/)
 - 📦 **Flathub:** [com.warlordsoftwares.formatlab](https://flathub.org/apps/details/com.warlordsoftwares.formatlab)
 - 📦 **Snap Store:** [snapcraft.io/formatlab](https://snapcraft.io/formatlab)
-- 🐞 **Issues:** [github.com/rishabh3354/FORMAT_LAB/issues](https://github.com/rishabh3354/FORMAT_LAB/issues)
-- 🔒 **Privacy policy:** [privacy.html](https://rishabh3354.github.io/FORMAT_LAB/privacy.html)
+- 🐞 **Issues:** [gitlab.com/warlordsoftwares/formatlab/-/issues](https://gitlab.com/warlordsoftwares/formatlab/-/issues)
+- 🔒 **Privacy policy:** [privacy.html](https://warlordsoftwares.com/privacy-policy/)
 
 ---
 
