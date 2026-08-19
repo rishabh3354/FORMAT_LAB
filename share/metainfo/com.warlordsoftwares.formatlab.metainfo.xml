@@ -2,7 +2,7 @@
 <component type="desktop">
   <id>com.warlordsoftwares.formatlab</id>
   <metadata_license>CC0-1.0</metadata_license>
-  <project_license>LicenseRef-proprietary=https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/license/LICENSE</project_license>
+  <project_license>LicenseRef-proprietary=https://gitlab.com/warlordsoftwares/formatlab/-/raw/main/share/license/LICENSE</project_license>
   <developer_name translate="no">Warlord Softwares</developer_name>
     <branding>
         <color type="primary" scheme_preference="light">#9f39a2</color>
@@ -125,34 +125,39 @@
   <screenshots>
     <screenshot type="default">
         <caption>FORMATLAB: Video conversion page</caption>
-      <image type="source">https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/video-convert-options.png</image>
+      <image type="source">https://gitlab.com/warlordsoftwares/formatlab/-/raw/main/share/screenshots/video-convert-options.png</image>
     </screenshot>
     <screenshot>
         <caption>FORMATLAB: Home page</caption>
-      <image type="source">https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/home-page.png</image>
+      <image type="source">https://gitlab.com/warlordsoftwares/formatlab/-/raw/main/share/screenshots/home-page.png</image>
     </screenshot>
     <screenshot>
         <caption>FORMATLAB: Audio convertion page </caption>
-      <image type="source">https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/audio-convert-options.png</image>
+      <image type="source">https://gitlab.com/warlordsoftwares/formatlab/-/raw/main/share/screenshots/audio-convert-options.png</image>
     </screenshot>
     <screenshot>
         <caption>FORMATLAB: App settings page</caption>
-      <image type="source">https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/app-settings.png</image>
+      <image type="source">https://gitlab.com/warlordsoftwares/formatlab/-/raw/main/share/screenshots/app-settings.png</image>
     </screenshot>
     <screenshot>
         <caption>FORMATLAB: System monitor page</caption>
-      <image type="source">https://raw.githubusercontent.com/rishabh3354/FORMAT_LAB/main/share/screenshots/system-monitor.png</image>
+      <image type="source">https://gitlab.com/warlordsoftwares/formatlab/-/raw/main/share/screenshots/system-monitor.png</image>
     </screenshot>
   </screenshots>
   <url type="homepage">https://warlordsoftwares.com/trending-apps/formatlab-pro-convert-or-compress-video-audio-formats-one-click/</url>
-  <url type="vcs-browser">https://github.com/rishabh3354/FORMAT_LAB/</url>
-  <url type="bugtracker">https://github.com/rishabh3354/FORMAT_LAB/issues</url>
+  <url type="vcs-browser">https://gitlab.com/warlordsoftwares/formatlab</url>
+  <url type="bugtracker">https://gitlab.com/warlordsoftwares/formatlab/-/issues</url>
   <url type="contact">https://warlordsoftwares.com/contact-us/</url>
   <url type="donation">https://www.paypal.me/rishabh3354/10</url>
   <update_contact>contact@warlordsoftwares.com</update_contact>
   <launchable type="desktop-id">com.warlordsoftwares.formatlab.desktop</launchable>
    <content_rating type="oars-1.1" />
   <releases>
+      <release version="2026.8.19" date="2026-8-19">
+			<description>
+				<p>Bug fixes and improvements</p>
+			</description>
+		</release>
       <release version="2026.8.8" date="2026-8-8">
 			<description>
 				<p>Video MPV playback issue: fixed</p>
