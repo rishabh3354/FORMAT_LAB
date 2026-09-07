@@ -145,14 +145,19 @@
     </screenshot>
   </screenshots>
   <url type="homepage">https://warlordsoftwares.com/trending-apps/formatlab-pro-convert-or-compress-video-audio-formats-one-click/</url>
-  <url type="vcs-browser">https://gitlab.com/warlordsoftwares/formatlab</url>
-  <url type="bugtracker">https://gitlab.com/warlordsoftwares/formatlab/-/issues</url>
+  <url type="vcs-browser">https://github.com/rishabh3354/FORMAT_LAB</url>
+  <url type="bugtracker">https://github.com/rishabh3354/FORMAT_LAB/issues</url>
   <url type="contact">https://warlordsoftwares.com/contact-us/</url>
   <url type="donation">https://www.paypal.me/rishabh3354/10</url>
   <update_contact>contact@warlordsoftwares.com</update_contact>
   <launchable type="desktop-id">com.warlordsoftwares.formatlab.desktop</launchable>
    <content_rating type="oars-1.1" />
   <releases>
+        <release version="2026.9.6" date="2026-9-6">
+			<description>
+				<p>Video conversion fixes</p>
+			</description>
+		</release>
       <release version="2026.8.19" date="2026-8-19">
 			<description>
 				<p>Bug fixes and improvements</p>
