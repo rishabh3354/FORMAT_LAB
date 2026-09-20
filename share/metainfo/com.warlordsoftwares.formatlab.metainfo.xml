@@ -42,82 +42,11 @@
       <p>High-quality media conversions made easy with FormatLab</p>
   </description>
     <keywords>
-        <keyword translate="no">FormatLab</keyword>
-        <keyword>FFMpeg</keyword>
-        <keyword>HandBrake</keyword>
         <keyword>video converter</keyword>
         <keyword>audio converter</keyword>
-        <keyword>mp4 converter</keyword>
-        <keyword>mp3 converter</keyword>
         <keyword>video to mp3 converter</keyword>
-        <keyword>Uniconverter</keyword>
-        <keyword>VideoProc</keyword>
-        <keyword>Leawo Video Converter</keyword>
-        <keyword>WinX Video Converter</keyword>
-        <keyword>iDealshare</keyword>
-        <keyword>FonePaw</keyword>
-        <keyword>HitPaw</keyword>
-        <keyword>Movavi</keyword>
-        <keyword>Freemake</keyword>
-        <keyword>Prism</keyword>
-        <keyword>Wonderfox</keyword>
-        <keyword>AnyMP4</keyword>
-        <keyword>Video Converter Ultimate</keyword>
-        <keyword>Aiseesoft Video Converter Ultimate</keyword>
-        <keyword>Acethinker</keyword>
-        <keyword>Stellar</keyword>
-        <keyword>Gilisoft</keyword>
-        <keyword>Cisdem</keyword>
-        <keyword>Tipard</keyword>
-        <keyword>Any Video Converter</keyword>
-        <keyword>Zamzar</keyword>
-        <keyword>easy-to-use</keyword>
-        <keyword>audio and video converter</keyword>
-        <keyword>4K resolution</keyword>
-        <keyword>Hamster</keyword>
-        <keyword>popular formats</keyword>
-        <keyword>high-quality conversions</keyword>
-        <keyword>MediaCoder</keyword>
-        <keyword>Gihosoft</keyword>
-        <keyword>Clone2Go</keyword>
-        <keyword>iTube Studio</keyword>
-        <!--		German keywords-->
-        <keyword>Video-Konverter</keyword>
-        <keyword>Audio-Konverter</keyword>
-        <keyword>MP4-Konverter</keyword>
-        <keyword>MP3-Konverter</keyword>
-        <keyword>Video-zu-MP3-Konverter</keyword>
-        <!--		French keywords-->
-        <keyword>convertisseur vidéo</keyword>
-        <keyword>convertisseur audio</keyword>
-        <keyword>convertisseur MP4</keyword>
-        <keyword>convertisseur MP3</keyword>
-        <keyword>convertisseur vidéo en MP3</keyword>
-        <!--		Italian keywords-->
-        <keyword>convertitore video</keyword>
-        <keyword>convertitore audio</keyword>
-        <keyword>convertitore MP4</keyword>
-        <keyword>convertitore MP3</keyword>
-        <keyword>convertitore da video a MP3</keyword>
-        <!--		Spanish keywords-->
-        <keyword>convertidor de video</keyword>
-        <keyword>convertidor de audio</keyword>
-        <keyword>convertidor MP4</keyword>
-        <keyword>convertidor MP3</keyword>
-        <keyword>convertidor de video a MP3</keyword>
-        <!--		Japanese keywords-->
-        <keyword>動画変換ソフト</keyword>
-        <keyword>音声変換ソフト</keyword>
-        <keyword>MP4変換ソフト</keyword>
-        <keyword>MP3変換ソフト</keyword>
-        <keyword>動画をMP3に変換</keyword>
-        <!--		Swedish Keywords-->
-        <keyword>videokonverterare</keyword>
-        <keyword>ljudkonverterare</keyword>
-        <keyword>MP4-konverterare</keyword>
-        <keyword>MP3-konverterare</keyword>
-        <keyword>video till MP3-konverterare</keyword>
-	</keywords>
+        <keyword>format converter</keyword>
+    </keywords>
     <categories>
 		<category>Utility</category>
 		<category>AudioVideo</category>
