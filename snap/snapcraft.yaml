@@ -1,8 +1,8 @@
 name: formatlab
 base: core22
-version: '2026.9.6'
-summary: Convert Videos and Audio Files
-description:  FormatLab is a powerful audio and video converter that supports 4K resolution and a wide range of codecs.
+version: '2026.10.13'
+summary: Convert Video, Audio and Images
+description: FormatLab is a powerful video, audio and image converter that supports 4K resolution and a wide range of formats and codecs.
 grade: stable
 confinement: strict
 

@@ -9,14 +9,16 @@
         <color type="primary" scheme_preference="dark">#0b9358</color>
     </branding>
   <name>FormatLab</name>
-  <summary>Convert Videos and Audio Files</summary>
+  <summary>Convert Video, Audio and Images</summary>
   <description>
     <p>ABOUT APPLICATION :</p>
-    <p>FormatLab is a powerful audio and video converter that supports 4K resolution and a wide range of codecs.</p>
+    <p>FormatLab is a powerful video, audio and image converter that supports 4K resolution and a wide range of formats and codecs.</p>
     <p>FEATURES :</p>
     <ul>
        <li>Convert all popular video and audio formats with lossless compression.</li>
         <li>Extract HD audio from any video files.</li>
+        <li>Convert images between JPG, PNG, WebP, AVIF, GIF, TIFF, BMP and ICO, including HEIC photos from iPhones.</li>
+        <li>Resize images, set a target file size and remove location and camera details.</li>
         <li>Adjust video quality and frame rate (FPS).</li>
         <li>Supports surround sound (5.1 and 7.1 channels).</li>
         <li>Hardware acceleration with GPU for faster conversions.</li>
@@ -39,6 +41,9 @@
       <p>SUPPORTED AUDIO FORMATS:</p>
     <p>'aac', 'mp3', 'wav', 'flac', 'm4a', 'ogg', 'wma', 'opus', 'aiff', 'dts', 'ac3', 'mp2', 'voc', 'ra', 'tta', 'wv', 'caf', 'm4r'</p>
 
+      <p>SUPPORTED IMAGE FORMATS:</p>
+    <p>'jpg', 'png', 'webp', 'avif', 'gif', 'tiff', 'bmp', 'ico' - and 'heic', 'heif', 'tga', 'psd', 'jp2' as input</p>
+
       <p>High-quality media conversions made easy with FormatLab</p>
   </description>
     <keywords>
@@ -47,6 +52,8 @@
         <keyword>HandBrake</keyword>
         <keyword>video converter</keyword>
         <keyword>audio converter</keyword>
+        <keyword>image converter</keyword>
+        <keyword>heic to jpg</keyword>
         <keyword>mp4 converter</keyword>
         <keyword>mp3 converter</keyword>
         <keyword>video to mp3 converter</keyword>
@@ -153,6 +160,17 @@
   <launchable type="desktop-id">com.warlordsoftwares.formatlab.desktop</launchable>
    <content_rating type="oars-1.1" />
   <releases>
+        <release version="2026.10.13" date="2026-10-13">
+			<description>
+				<p>New: Image conversion - JPG, PNG, WebP, AVIF, HEIC and more, with resize, target file size and metadata removal</p>
+				<p>New: Advanced video options - trim, crop and rotate, target size, presets, fast remux, subtitles and audio tracks, merge, GIF and WebP, audio volume, metadata removal</p>
+				<p>New: Output size estimate before converting</p>
+				<p>All video quality levels and 1080p output are now free</p>
+				<p>Hardware acceleration: AMD (AMF) encoders added</p>
+				<p>Redesigned video and audio options windows</p>
+				<p>More input formats are recognised (for example .trec)</p>
+			</description>
+		</release>
         <release version="2026.9.6" date="2026-9-6">
 			<description>
 				<p>Video conversion fixes</p>
