@@ -160,7 +160,7 @@
   <launchable type="desktop-id">com.warlordsoftwares.formatlab.desktop</launchable>
    <content_rating type="oars-1.1" />
   <releases>
-        <release version="2026.10.13" date="2026-10-13">
+        <release version="2026.10.19" date="2026-10-19">
 			<description>
 				<p>New: Image conversion - JPG, PNG, WebP, AVIF, HEIC and more, with resize, target file size and metadata removal</p>
 				<p>New: Advanced video options - trim, crop and rotate, target size, presets, fast remux, subtitles and audio tracks, merge, GIF and WebP, audio volume, metadata removal</p>
