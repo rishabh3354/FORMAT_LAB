@@ -76,3 +76,4 @@ parts:
       mkdir -p ${SNAPCRAFT_PART_INSTALL}/bin
       cp FORMAT_LAB ${SNAPCRAFT_PART_INSTALL}/bin/formatlab
       chmod +x ${SNAPCRAFT_PART_INSTALL}/bin/formatlab
+
