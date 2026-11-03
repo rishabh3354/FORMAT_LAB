@@ -160,6 +160,15 @@
   <launchable type="desktop-id">com.warlordsoftwares.formatlab.desktop</launchable>
    <content_rating type="oars-1.1" />
   <releases>
+        <release version="2026.11.3" date="2026-11-03">
+			<description>
+				<p>Files that can’t be opened (for example files dragged in from a folder the Flatpak version can’t reach) are now explained once, with how to add them, instead of failing one by one</p>
+				<p>The image converter works again in the AppImage version</p>
+				<p>Videos and audio files whose size can’t be read are added anyway instead of being rejected</p>
+				<p>Fixed a crash when quitting the app, and a possible crash right after a conversion finishes</p>
+				<p>Fixed errors with file names and tags in other encodings, and other smaller errors</p>
+			</description>
+		</release>
         <release version="2026.10.19" date="2026-10-19">
 			<description>
 				<p>New: Image conversion - JPG, PNG, WebP, AVIF, HEIC and more, with resize, target file size and metadata removal</p>
